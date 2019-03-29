@@ -11,3 +11,5 @@
  * @version: 0.0.1
  * @date:    31 Dec 2012
  */
+
+ $messages = array();
