@@ -12,7 +12,7 @@
  * @date:    31 Dec 2012
  */
 
-require_once('extensions/FsApi/FsApiExtension.i18n.php');
+require_once( "$IP/extensions/FsApi/FsApiExtension.i18n.php");
 
 interface FsApi
 {
