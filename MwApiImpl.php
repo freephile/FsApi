@@ -13,12 +13,12 @@
  */
 
 
-require_once('extensions/FsApi/MwApi.php');
-require_once('extensions/FsApi/xml/mw/FsMwSearch.php');
-require_once('extensions/FsApi/xml/mw/FsMwPage.php');
-require_once('extensions/FsApi/xml/mw/MwWikiApi.php');
-require_once('extensions/FsApi/xml/mw/FsUnitNbrMap.php');
-require_once('extensions/FsApi/xml/fs/FsSearch.php');
+require_once(__DIR__ . '/MwApi.php');
+require_once(__DIR__ . '/xml/mw/FsMwSearch.php');
+require_once(__DIR__ . '/xml/mw/FsMwPage.php');
+require_once(__DIR__ . '/xml/mw/MwWikiApi.php');
+require_once(__DIR__ . '/xml/mw/FsUnitNbrMap.php');
+require_once(__DIR__ . '/xml/fs/FsSearch.php');
 
 class MwApiImpl implements MwApi
 {

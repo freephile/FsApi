@@ -12,8 +12,8 @@
  * @date:    31 Dec 2012
  */
 
-require_once('extensions/FsApi/FsApi.php');
-require_once('extensions/FsApi/MwApiImpl.php');
+require_once(__DIR__ . '/FsApi.php');
+require_once(__DIR__ . '/MwApiImpl.php');
 
 class FsApiImpl implements FsApi
 {

@@ -12,7 +12,7 @@
  * @date:    31 Dec 2012
  */
 
-require_once 'extensions/FsApi/xml/FsXml.php';
+require_once __DIR__ . '/../FsXml.php';
 
 class FsMwPage extends FsXml
 {

@@ -12,10 +12,10 @@
  * @date:    31 Dec 2012
  */
 
-require_once('includes/global_api.php');
-require_once('extensions/FsApi/FsApiImpl.php');
-require_once('extensions/FsApi/MwApiImpl.php');
-require_once('extensions/FsApi/FsCurl.php');
+// require_once('includes/global_api.php');
+require_once(__DIR__ . "/FsApiImpl.php");
+require_once(__DIR__ . '/MwApiImpl.php');
+require_once(__DIR__ . '/FsCurl.php');
 
 $wgExtensionCredits['other'][] =
 	array(

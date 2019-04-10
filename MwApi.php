@@ -12,7 +12,7 @@
  * @date:    31 Dec 2012
  */
 
-require_once('extensions/FsApi/FsApiExtension.i18n.php');
+require_once(__DIR__ . '/FsApiExtension.i18n.php');
 
 interface MwApi
 {
