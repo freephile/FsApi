@@ -11,3 +11,5 @@ This should all be done at an endpoint similar to
 https://www.familysearch.org/wiki/en/extensions/FsApi/FsApiExtension.php?action=unitNbrToFhcWikiPage&unitNbr=3331776 to maintain backwards compatibility (until clients can change their code).
 
 Results should be returned as XML (optionally add json return format for future compatibility)
+
+index.php provides and example of all the functionality required (without formatting).
