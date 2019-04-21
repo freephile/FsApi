@@ -1,5 +1,5 @@
 {
-	"name": "FSAPI",
+	"name": "FsApi",
 	"version": "1.0",
 	"author": [
 		"Greg Rundlett"
@@ -19,20 +19,10 @@
 	"ExtensionMessagesFiles": {
 		"UnitNbrToFhcWikiPage": "UnitNbrToFhcWikiPage.alias.php"
 	},
-	"ResourceModules": {
-		"ext.UnitNbrToFhcWikiPage" : {
-			"dependencies": [
-				"mediawiki.api",
-				"mediawiki.ApiBase"
-			]
-		}
-	},
 	"MessagesDirs": {
 		"UnitNbrToFhcWikiPage": [
-			"i18n",
-			"i18n/api"
+			"i18n"
 		]
 	},
 	"manifest_version": 1
 }
-
