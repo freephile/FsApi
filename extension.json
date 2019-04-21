@@ -1,0 +1,38 @@
+{
+	"name": "FSAPI",
+	"version": "1.0",
+	"author": [
+		"Greg Rundlett"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Fsapi",
+	"descriptionmsg": "fsapi-desc",
+	"license-name": "GPLv3",
+	"requires": {
+		"MediaWiki": ">= 1.25.0"
+	},
+	"APIModules": {
+		"unitnbrtofhcwikipage": "UnitNbrToFhcWikiPage"
+	},
+	"AutoloadClasses": {
+		"UnitNbrToFhcWikiPage": "includes/UnitNbrToFhcWikiPage.php"
+	},
+	"ExtensionMessagesFiles": {
+		"UnitNbrToFhcWikiPage": "UnitNbrToFhcWikiPage.alias.php"
+	},
+	"ResourceModules": {
+		"ext.UnitNbrToFhcWikiPage" : {
+			"dependencies": [
+				"mediawiki.api",
+				"mediawiki.ApiBase"
+			]
+		}
+	},
+	"MessagesDirs": {
+		"UnitNbrToFhcWikiPage": [
+			"i18n",
+			"i18n/api"
+		]
+	},
+	"manifest_version": 1
+}
+
