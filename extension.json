@@ -24,5 +24,13 @@
 			"i18n"
 		]
 	},
+	"ResourceModules": {
+		"ext.UnitNbrToFhcWikiPage" : {
+			"dependencies": [
+				"mediawiki.api",
+				"mediawiki.ApiBase"
+			]
+		}
+	},
 	"manifest_version": 1
 }
