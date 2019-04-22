@@ -12,4 +12,4 @@ https://www.familysearch.org/wiki/en/extensions/FsApi/FsApiExtension.php?action=
 
 Results should be returned as XML (optionally add json return format for future compatibility)
 
-index.php provides and example of all the functionality required (without formatting).
+index.php provides all the functionality required.
