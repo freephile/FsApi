@@ -50,4 +50,5 @@ foreach ( $ary as $k => $v ) {
 $xml = new SimpleXMLElement("<?xml version=\"1.0\" encoding=\"utf-8\"?><api><urls><rev>$ret</rev></urls></api>");
 
 // Return the XML document
+header("content-type: text/xml;charset=UTF-8");
 echo $xml->asXML();
