@@ -12,9 +12,8 @@
  * @date: 2019/04/19
  */
 
-
 class UnitNbrToFhcWikiPage extends ApiBase {
-	// is this even needed?
+
 	public function __construct() {
 		$parent::__construct();
 	}
@@ -41,7 +40,7 @@ class UnitNbrToFhcWikiPage extends ApiBase {
 			);
 		$ary = explode ("\n", $content);
 		*/
-		$url = "https://beta.familysearch.org/wiki/$language/api.php" .
+		$url = "https://{$_SERVER['HTTP_HOST']}/wiki/$language/api.php" .
 			"?format=xml&action=query&pageids=" . FHC_MASTER_LIST . "&prop=revisions&rvprop=content";
 		$xml = file_get_contents( $url );
 		$ary = explode( "\n", $xml);
