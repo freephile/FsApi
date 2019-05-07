@@ -28,7 +28,7 @@
 		"ext.UnitNbrToFhcWikiPage" : {
 			"dependencies": [
 				"mediawiki.api",
-				"mediawiki.ApiBase"
+				"mediawiki.apibase"
 			]
 		}
 	},
