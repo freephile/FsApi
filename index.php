@@ -14,8 +14,13 @@
 // this is the page we want to parse for data
 define ("FHC_MASTER_LIST", 137044);
 
+$language = '';
+
 // take in our parameters from the request
-$language = $_GET["language"]; // 'en'
+if( isset( $_GET['language'] ) )  {
+	$language = $_GET["language"]; // 'en'
+}
+
 // default to 'en' for language
 $language = (empty($language))? "en" : $language;
 $unitNum = $_GET["unitNbr"]; // 3331776
